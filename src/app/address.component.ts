@@ -1,0 +1,22 @@
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-address',
+  template:`
+  <h3>ADDRESS</h3>
+      <p><b> Article: Child routing & Relative navigation </b></p>
+      <p><b> Category: Angular </b></p>
+      <p><b> Website: CONCRETEPAGE.COM </b></p>
+    <div>
+      <a [routerLink]="['/location']">Find Location</a>
+    </div> 
+  `,
+  styleUrls: ['./address.component.css']
+})
+export class AddressComponent  {
+
+  constructor() { }
+
+  
+
+}
