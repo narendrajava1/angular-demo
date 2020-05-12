@@ -118,3 +118,7 @@ Now we have source map explorer installed globally. To see the visualization fir
 ng build # To build the solution
 source-map-explorer dist/main.bundle.js # Open a treemap visualization
 In this post, I have tried to cover all the possible ng commands. Please let me know in comment section if I have missed any command.
+
+
+## To generate the model class
+ng g class modelclassname --type=model
